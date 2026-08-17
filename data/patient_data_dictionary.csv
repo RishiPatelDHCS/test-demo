@@ -1,0 +1,8 @@
+field_name,data_type,description,allowed_values,required,version,last_updated
+patient_id,string,Unique identifier for a patient,UUID format,true,1.0.0,2026-08-17
+date_of_birth,date,Patient date of birth,YYYY-MM-DD,true,1.0.0,2026-08-17
+gender,string,Patient gender identity,"Male, Female, Non-binary, Unknown",false,1.0.0,2026-08-17
+zip_code,string,Patient 5-digit ZIP code,5-digit numeric string,false,1.0.0,2026-08-17
+insurance_type,string,Type of insurance coverage,"Medi-Cal, Medicare, Private, Uninsured",false,1.0.0,2026-08-17
+diagnosis_code,string,ICD-10 diagnosis code,ICD-10-CM format,false,1.0.0,2026-08-17
+visit_date,date,Date of clinical visit,YYYY-MM-DD,true,1.0.0,2026-08-17
