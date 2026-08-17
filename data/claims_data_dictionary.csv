@@ -1,0 +1,9 @@
+field_name,data_type,description,allowed_values,required,version,last_updated
+claim_id,string,Unique identifier for a claim,UUID format,true,1.0.0,2026-08-17
+patient_id,string,Reference to patient record,UUID format,true,1.0.0,2026-08-17
+claim_date,date,Date the claim was submitted,YYYY-MM-DD,true,1.0.0,2026-08-17
+claim_type,string,Category of the claim,"Medical, Dental, Vision, Pharmacy",true,1.0.0,2026-08-17
+amount_billed,float,Total amount billed in USD,Positive numeric,true,1.0.0,2026-08-17
+amount_paid,float,Total amount paid in USD,Positive numeric,false,1.0.0,2026-08-17
+procedure_code,string,CPT procedure code,CPT format,false,1.0.0,2026-08-17
+provider_npi,string,National Provider Identifier,10-digit numeric,false,1.0.0,2026-08-17
